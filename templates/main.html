@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <style>
+        body
+        {
+            background-color: bisque;
+        }
+        h1
+        {
+            color: red;
+        }
+        #a
+        {
+            color: darkmagenta;
+        }
+        #b
+        {
+            color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>This is the Main Page</h1>
+        <h2 id="a">Below are the urls to some ecommerce web-sites</h2>
+        <h2 id="b">Click on any of these three links to navigate</h2>
+        <h2><a href="{% url 'amazon' %}">Amazon</a></h2>
+        <h2><a href="{% url 'flipkart' %}">Flipkart</a></h2>
+        <h2><a href="{% url 'myntra' %}">Myntra</a></h2>
+    </center>
+</body>
+</html>
